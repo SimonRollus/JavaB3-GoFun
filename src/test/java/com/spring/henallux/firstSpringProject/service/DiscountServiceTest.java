@@ -7,7 +7,6 @@ import org.junit.Assert;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import java.util.Date;
 import java.util.GregorianCalendar;
 
 class DiscountServiceTest {
@@ -31,7 +30,6 @@ class DiscountServiceTest {
 
         discount.setStartDate(startDate.getTime());
 
-        // GregorianCalendar 2023-02-25 23:59:59
         GregorianCalendar endDate = new GregorianCalendar(2023-1900, 2-1, 25, 23, 59, 59);
 
         discount.setEndDate(endDate.getTime());
