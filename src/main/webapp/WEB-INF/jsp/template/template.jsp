@@ -26,7 +26,7 @@
 <sec:authorize access="isAuthenticated()">
 <div class="alert shadow-sm">
     <div>
-        <a class="text-base leading-8 text-blue-600">Welcome ${pageContext.request.userPrincipal.principal.username}</a>
+        <a class="text-base leading-8 text-blue-600"><spring:message code="welcome"/> ${pageContext.request.userPrincipal.principal.username}</a>
     </div>
 </div>
 </sec:authorize>
